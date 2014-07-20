@@ -55,3 +55,16 @@ target_link_libraries(opencv_ros_hough_trans ${OpenCV_LIBS} ${ROS_LIBRARIES} ${c
 
 add_executable(opencv_ros_histogram_cmp examples/histogram_cmp.cpp)
 target_link_libraries(opencv_ros_histogram_cmp ${OpenCV_LIBS} ${ROS_LIBRARIES} ${catkin_LIBRARIES})
+
+add_executable(opencv_ros_cam_capture1 examples/cam_capture1.cpp)
+target_link_libraries(opencv_ros_cam_capture1 ${OpenCV_LIBS} ${ROS_LIBRARIES} ${catkin_LIBRARIES})
+
+add_executable(opencv_ros_cam_capture2 examples/cam_capture2.cpp)
+target_link_libraries(opencv_ros_cam_capture2 ${OpenCV_LIBS} ${ROS_LIBRARIES} ${catkin_LIBRARIES})
+
+
+
+
+
+
+
