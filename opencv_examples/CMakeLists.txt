@@ -62,6 +62,8 @@ target_link_libraries(opencv_ros_cam_capture1 ${OpenCV_LIBS} ${ROS_LIBRARIES} ${
 add_executable(opencv_ros_cam_capture2 examples/cam_capture2.cpp)
 target_link_libraries(opencv_ros_cam_capture2 ${OpenCV_LIBS} ${ROS_LIBRARIES} ${catkin_LIBRARIES})
 
+add_executable(opencv_ros_cam_record examples/cam_record.cpp)
+target_link_libraries(opencv_ros_cam_record ${OpenCV_LIBS} ${ROS_LIBRARIES} ${catkin_LIBRARIES})
 
 
 
